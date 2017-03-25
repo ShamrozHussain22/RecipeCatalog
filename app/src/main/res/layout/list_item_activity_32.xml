@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bakedbeans"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Macaroni boiled 2 cups
+\n\nBaked beans 1 can
+\n\nCapsicum 1 cut into rings
+\n\nOnion 1 cut into rings
+\n\nTomato puree ½ cup
+\n\nFlour 1 tbsp heaped
+\n\nGinger finely chopped 1 tbsp
+\n\nGarlic finely chopped 1 tbsp
+\n\nCrushed red pepper 1 tsp
+\n\nSalt ½ tsp
+\n\nButter 2 tbsp
+\n\nCheese 2 to 3 tbsp
+\n\nKetchup 2 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Mix flour with tomato puree and keep aside, heat butter in a wok add crushed ginger garlic, cook for 1 minute, add capsicum rings and onion rings, toss for 1 minute and remove, add in crushed red chilies alt, tomato puree, baked beans, fold in boiled macaroni, add ketchup, spread mixture in a greased baking dish, topped with onion and capsicum rings, spread with grated cheese, dot with 1 tbsp butter, bake for 15 minutes on 180 degree C. "/>
+</LinearLayout>
+</ScrollView>

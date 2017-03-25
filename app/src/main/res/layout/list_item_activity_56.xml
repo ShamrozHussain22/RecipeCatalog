@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/hummingbird"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Flour	3 cups
+\n\nBaking soda	1 tsp
+\n\nSalt	1 tsp
+\n\nSugar	2 cups
+\n\nGround cinnamon	1 tsp
+\n\nEggs (beaten)	3
+\n\nOil	1 cup
+\n\nVanilla essence	1-1/2 tsp
+\n\nCrushed pineapple	(undrained) 1 can (8 oz)
+\n\nChopped walnuts	1 cup
+\n\nChopped bananas	2 cups
+\n\n\nCream Cheese Frosting:
+\n\nCream cheese	8 oz
+\n\nVanilla essence	1 tsp
+\n\nUnsalted butter	4 oz
+\n\nIcing sugar (sifted)	2 cups
+\n\nChopped walnuts (to decorate)	1/2 cup
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Combine first 5 ingredients in a large bowl; add eggs and oil, stirring until dry ingredients are moistened. (Do not beat.)
+\n\n2. Stir in vanilla, pineapple, 1 cup walnuts, and bananas.
+\n\n3. Pour batter into lined cupcakes tray.
+\n\n4. Bake at 180 degrees C for 15 to 20 minutes or until a wooden pick inserted in center comes out clean.
+\n\n5. Cool in pans on wire racks 10 minutes; remove from pans, and cool completely on wire racks.
+\n\n6. For the frosting, beat the cream cheese and butter well and then add gradually the sifted icing sugar till stiff.
+\n\n7. Add in the vanilla essence as well.
+\n\n8. Let chill until using.
+\n\n9. Pipe cream cheese frosting on the cupcakes; garnish with pineapple chunks and walnut halves and store in a refrigerator before serving. "/>
+</LinearLayout>
+</ScrollView>

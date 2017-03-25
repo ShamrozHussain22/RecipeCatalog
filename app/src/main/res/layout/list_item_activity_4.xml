@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/chikbroast"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken (With Skin) 500 grams
+\n\nRed Chili Powder 1 tsp
+\n\nVinegar as required
+\n\nChinese Salt 1/3 tsp
+\n\nOil for frying
+\n\nSalt to taste
+\n\nEggs 2-3
+\n\nFor Broast Masala
+\n\nAll Purpose Flour 1 cup
+\n\nRice Flour ½ cup
+\n\nCorn Flour ½ cup
+\n\nChicken Powder 4 tbsp
+\n\nGarlic Powder 2 tbsp
+\n\nWhite Pepper Powder 4 tbsp
+\n\nChinese Salt 2 tbsp
+\n\nSalt to taste
+\n\nFor Garlic Sauce
+\n\nCream 1 cup
+\n\nMayonnaise 1 cup
+\n\nGarlic Cloves 6-8
+\n\nWhite Pepper Powder ½ tsp
+\n\nChicken Cube 1
+\n\nLemon Juice 2 -3 tbsp
+\n\nSalt to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="For broast masala: \n\ntake 1 cup of all purpose , ½ cup of rice flour , ½ cup of corn flour, sieve it together. Now take a blender add 4 tbsp of chicken powder, 2 tbsp garlic powder, 4 tbsp of white pepper powder, 2 tbsp of Chinese salt, add to taste salt and take a air tight box or container add all mixture in it and mix it well until all mixture are together. Now broast masala is ready.\n\nFor garlic sauce: \n\nTake 6-8 cloves of garlic boil it and take a blender jug add 1 cup of cream, 1 cup of mayonnaise , boiled garlic cloves add to taste salt, ½ tsp of white pepper powder, 2-3 tbsp of lemon juice, 1 chicken cube mix it well and make a thick paste. Now sauce is ready. \n\nFor chicken broast: \n\nTake a bowl add as required vinegar , add to taste salt, 1 tsp of red chili powder , 1/3 tsp of Chinese salt mix it well and marinate the ½ kg of chicken. Now take a air tight container or box now add chicken pieces one by one coated with broast masala and 2-3 beated eggs coated with eggs now repeat the process on 3-4 times until chicken coated a thick layer. Now take a deep wok add oil heat the oil and deep fry the chicken on low flame heat and cook cover the lid until its golden brown take it out in a serving platter and serve with sauce. "/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/yakhnipulao"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken 1 Kg
+\n\nOnions (finely chopped) 3
+\n\nGreen Chilies 3
+\n\nGreen Cardamoms 5-6
+\n\nOil 1 cup
+\n\nYogurt ½ cup
+\n\nRice 2 ½ cup
+\n\nCarawy Seeds 1 tsp
+\n\nGinger Garlic Paste 1 tbsp
+\n\nSalt to taste
+\n\n\nFor Stock:
+\n\nOnions 2
+\n\nGarlic 1 clove
+\n\nGinger 1 piece
+\n\nAll Spice (whole) a pinch
+\n\nCumin Seeds 1 tsp
+\n\nFennel Seeds 1 tbsp
+\n\nCoriander 2 tbsp
+\n\nSalt to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Add 1 kg chicken, 3 glass water, salt, 2 onions, 1 clove and 1 piece ginger in a wok.
+\n\n2. Wrap 1 tbsp fennel seeds, 2 tbsp whole coriander, a pinch whole all spices and 1 tsp cumin seeds in a small malmal cloth. Place this spices pouch in the wok. When chicken is tender enough, remove it from the wok. Clear the stalk by sieving it.
+\n\n3. Now heat 1 cup oil in another pan, and fry 3 finely chopped onions till they turn golden brown, remove half of the onions from and pan and keep them aside.
+\n\n4. Add ½ cup yogurt in the pan with remaining onions, with 1 tbsp ginger garlic paste, 5-6 green cardamoms, 1 tsp caraway seeds and 3 green chilies. Cook the ingredients for a while. After 5 minutes add the clear sieved stalk.
+\n\n5. When stalk reaches boil , then remove water from soaked rice and ad them in the stalk. Stir and add salt. Cover the pan. When the stalk is dried, keep it to simmer.
+\n\n6. As steam starts appearing, that’s when your Yakhni Pulao is ready.  "/>
+</LinearLayout>
+</ScrollView>

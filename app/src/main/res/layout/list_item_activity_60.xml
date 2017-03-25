@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/toffemocha"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Pound cake	(cut into slices) 1
+\n\nStrong coffee	3/4 cup
+\n\nCaster sugar	1 cup
+\n\nChocolate syrup	1/2 cup
+\n\nCream cheese	8 oz
+\n\nCream	2 cups
+\n\nChocolate covered toffee	(chopped) 2 bars
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Arrange cake slices on bottom of a rectangular dish, cutting cake slices if necessary to fit the bottom of the dish.
+\n\n2. Drizzle coffee over cake.
+\n\n3. Beat sugar, chocolate syrup, and cream cheese in a bowl until smooth.
+\n\n4. Add cream; beat on medium speed until light and fluffy.
+\n\n5. Spread over cake. Sprinkle with chocolate-covered toffee.
+\n\n6. Spread frosting over cake. Sprinkle with toffee candy.
+\n\n7. Cover and refrigerate for at least 1 hour, to set dessert and blend flavors.
+\n\n8. Toffee Mocha Dessert is ready to serve  "/>
+</LinearLayout>
+</ScrollView>

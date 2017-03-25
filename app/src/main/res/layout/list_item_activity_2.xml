@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/afghanipulao"/>
+
+
+        <TextView
+            android:id="@+id/tving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients:"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="#f54141"
+            android:textColor="#faf9f9"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#1e1e1e"
+            android:padding="5dp"
+            android:text="Chicken (8 piece) 1 kg
+\n\nSella Rice ½ kg
+\n\nAlmonds (blanched) 20
+\n\nCashews 10
+\n\nPistachios (blanched) 10 whole
+\n\nRaisin (soaked) 20
+\n\nCoconut (sliced) 2 tbsp
+\n\nCarrot (sliced) 1
+\n\nMixed Whole Spices 1 tbsp
+\n\nWhite Cumin Seeds 1 tsp
+\n\nCardamom Powder ½ tsp
+\n\nStock Cube 1
+\n\nOil 3/4 cup
+\n\nSugar (Caramelized in pan and add carrot slice) 2 tbsp
+\n\nBrown Onions ½ cup
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Method:"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="#f54141"
+            android:textColor="#faf9f9"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#1e1e1e"
+            android:padding="10dp"
+            android:text="1. Heat oil, add whole spices, half cup brown onion, and chicken, fry well, add stock cubes, green cardamom powder, salt, and 4 cups water, cover and cook till chicken nearly done.
+\n\n2. Add soaked rice, cook till done.
+\n\n3. Fry all the nuts, each separately in little oil, keep aside.
+\n\n4. Remove rice in a platter, serve garnish with fried nuts and caramelized carrots.
+\n\n5. Afghani Pulao by Shireen Anwar is ready to serve. "/>
+    </LinearLayout>
+</ScrollView>

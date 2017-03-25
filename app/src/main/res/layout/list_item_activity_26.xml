@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/chickcrumbroll"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Flour 1 ½ cup
+\n\nEgg 1
+\n\nSalt ½ tsp
+\n\nWater as required to make batter
+\n\nOil for frying
+\n\nBread crumbs as required
+\n\nEggs 2
+\n\n\nIngredients for filling:
+\n\nChicken mince 250 gm
+\n\nOnion chopped 2 tbsp
+\n\nGinger garlic 1 tsp
+\n\nOil spice ½ tsp
+\n\nSalt 1 tsp
+\n\nBlack pepper 1 tsp
+\n\nChat masala ½ tsp
+\n\nCoriander leaves and green chilies chopped
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Method for mince:
+\n\nHeat oil fry chopped onion till soft, add mince with ginger garlic, salt and black pepper, cover and cook on low flame, till mince tender, add in allspice, chat masala, chopped coriander and green chilies.
+\n\nMethod for roll:
+\n\nMix together flour, salt and egg, make into a thin batter using water as required, make into thin pan cakes, fill with chicken filling, roll tightly, dip in beaten eggs, roll in bread crumbs, shallow fry golden brown. "/>
+</LinearLayout>
+</ScrollView>

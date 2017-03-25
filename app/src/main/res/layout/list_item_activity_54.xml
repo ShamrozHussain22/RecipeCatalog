@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/fruitydelight"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Milk	1 liter
+\n\nColored vermicelli	1/2 cup
+\n\nCondensed milk	1/2 tin
+\n\nCream	1 cup
+\n\nStrawberry Custard powder	2 tbsp
+\n\nCorn flour	1 tbsp
+\n\nMilk	1/2 cup
+\n\nAlmonds and pistachios	2 tbsp
+\n\nFruit cocktail	1 cup
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Boil the milk, add colored vermicelli, cook it for 10 minutes.
+\n\n2. Mix custard powder, corn flour and milk. Cook till thick.
+\n\n3. Cool and add condensed milk and cream.
+\n\n4. Add fruit cocktail.
+\n\n5. Garnish with almonds and pistachios and serve. "/>
+</LinearLayout>
+</ScrollView>

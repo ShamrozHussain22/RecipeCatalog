@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/aloopita"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Boiled potatoes	½ kg
+\n\nPita Bread	8
+\n\nRed chili flakes	1 tbsp
+\n\nCrushed black pepper	1 tsp
+\n\nChopped green chilies	4
+\n\nCottage Cheese (grated)	 1 Packet
+\n\nLemons	2
+\n\nChopped green coriander	1 bunch
+\n\nSalt	to taste
+\n\nOil	as required
+\n\nFlour	1 tbsp
+\n\nWater	as required
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In some water, mix flour. peel the boiled potatoes and mash them.
+\n\n2. Add in red chili flakes, crushed black pepper, chopped green chilies, green coriander, lemon juice and cottage cheese and some salt.
+\n\n3. Put the mixture on a pita bread and cover it with other pita bread.
+\n\n4. Seal it with flour mixture. heat some oil in the pan and  fry the pita paratha in it. serve hot. "/>
+</LinearLayout>
+</ScrollView>

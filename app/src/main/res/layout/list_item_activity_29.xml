@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/qeemaparatha"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Mince ½ kg
+\n\nSpaghetti (boiled) 1 packet
+\n\nTomatoes 375 gms
+\n\nGreen Chilies 10
+\n\nOnions 2
+\n\nCumin Seeds 2tsp
+\n\nSalt 1 tsp
+\n\nTurmeric Powder 1tsp
+\n\nCoriander Powder 1 tsp
+\n\nCapsicums 2
+\n\nRed Chili 1 tsp
+\n\nGinger Garlic Paste 2 tbsp
+\n\nOil ½ cup
+\n\nCoriander Leaves
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a pan, heat oil add Ginger Garlic Paste and fry.
+\n\n2. Now add Mince and cook on high flame.
+\n\n3. Then add Onions, Tomatoes, Green Chilies, Cumin Seeds, Salt, Turmeric Powder, Coriander Powder, Capsicums, Red Chili cook on high flame and cover it.
+\n\n4. After this, add boiled Spaghetti and mix.
+\n\n5. When dries water, sprinkles Coriander Leaves and serve. "/>
+</LinearLayout>
+</ScrollView>

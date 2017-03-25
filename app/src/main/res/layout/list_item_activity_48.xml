@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/japanesechick"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken wings ½ kg cut into halves
+\n\nEggs 2 to 3 beaten
+\n\nSalt ½ tsp
+\n\nBlack pepper ½ tsp
+\n\nOil ½ cup
+\n\nButter ½ cup for frying
+\n\nSeasoned flour
+\n\nFlour 1 cup
+\n\nSalt 1 tsp
+\n\nBlack pepper ½ tsp
+\n\nCrushed red pepper 1 tsp
+\n\nGarlic powder 1 tsp
+\n\nOregano 1 tsp
+\n\n\nIngredients for sauce:
+\n\nSoya sauce 4 tbsp
+\n\nRed chili garlic sauce 3 tbsp
+\n\nSweet chili sauce 3 tbsp
+\n\nWater ¼ cup
+\n\nWhite vinegar ½ cup
+\n\nGarlic powder 1 tsp
+\n\nBlack pepper ½ tsp
+\n\nSalt ½ tsp
+\n\nSugar 3 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Coat wings in seasoned flour then in beaten egg, again in flour, heat butter and oil in a pan, fry the wings. Place fried wings in oven proof dish, pour the prepared sauce over the wings, bake in a preheated oven on 180 degree C for 20 minutes.
+\n\nMethod for sauce:
+\n\nMix all the ingredients in a mixing bowl, pour over the wings in baking dish. "/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/gujratidal"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Tooer daal 1/2 cup
+\n\nRaw Peanuts ¼ cup
+\n\nChopped tomato 1
+\n\nJaggery 2 tbsp
+\n\nGreen chillies (slit) 2
+\n\nFinely minced ginger 1-inch piece
+\n\nRed chilli powder 1 tsp
+\n\nTurmeric powder 1/4 tsp
+\n\nCumin powder ½ tsp
+\n\nCoriander powder ½ tsp
+\n\nLemon juice of 1 lemon
+\n\nSalt to taste
+\n\nCoriander leaves to garnish
+\n\n\nFor Tempering:
+\n\nOil/Ghee 1 tbsp
+\n\nMustard seeds 1/2 tsp
+\n\nCumin seeds 1/2 tsp
+\n\nCloves 2
+\n\nStar anise 1
+\n\nFenugreek seeds 1/4 tsp
+\n\nDry red chillies 2–4
+\n\nCinnamon stick 1-inch piece
+\n\nBay leaf 1
+\n\nCurry leaves 1 sprig
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="
+1. Add one cup water in the tooer daal and cook till done then blend or mash it with a masher.
+\n\n2. To the mashed daal, add 3 cups of water, raw peanuts, turmeric powder, red chili powder, minced ginger, green chilies, chopped tomatoes, jaggery and salt to taste and simmer for 12-15 minutes on low flame.
+\n\n3. Keep stirring in between. Heat oil or ghee in a small pan.
+\n\n4. Once the oil is hot, add mustard seeds and allow to splutter.
+\n\n5. Add cumin seeds, fenugreek seeds, red chillies, bay leaf, star anise, cloves, cinnamon and curry leaves and sauté for a few seconds.
+\n\n6. Pour the tempering into the simmering daal and mix.
+\n\n7. Add lemon juice and mix. Taste the daal.
+\n\n8. It should have spicy tangy and sweet flavors.
+\n\n9. Adjust red chili powder, lemon juice and jaggery accordingly.
+\n\n10. Garnish with coriander leaves.
+\n\n11. Serve with roti or rice. "/>
+</LinearLayout>
+</ScrollView>

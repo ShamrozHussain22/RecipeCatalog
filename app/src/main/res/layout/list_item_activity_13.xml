@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/donutkabab"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Beef Mince ½ kg
+\n\nOnion 2 Large
+\n\nPotatoes (medium) 2
+\n\nGreen Chilies 6
+\n\nChana Daal 4 tbsp
+\n\nGinger Garlic 1 tbsp
+\n\nEggs 2
+\n\nMint (chopped) ½ bunch
+\n\nAll spice 1 tsp
+\n\nBlack Pepper ½ tsp
+\n\nCoriander Leaves (chopped) ½ bunch
+\n\nRed Pepper (crushed) 1 tsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Cook together meat.
+\n\n2. Ginger garlic paste, salt, daal, onions and potatoes and boil with 2 cups water till water dries off completely.
+\n\n3. Cool add green chilies amd blend well, than add in all the rest of the ingredients.
+\n\n4. Mix well.
+\n\n5. Shape the meat into a round shape, cut with doughnut cutter and fry them on high flame. "/>
+</LinearLayout>
+</ScrollView>

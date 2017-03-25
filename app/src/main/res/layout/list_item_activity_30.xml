@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/squaches"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Qeema 1/2 kg
+\n\nGinger Garlic paste 1 tbsp.
+\n\nOnion Chopped 1
+\n\nPotatoes 1-2
+\n\nMint Leaves 1/2 bunch
+\n\nVinegar 2-3 tbsp.
+\n\nSalt per taste
+\n\n\nGaram Masala Ingredients:
+\n\nZeera 2 tbsp
+\n\nBlack Pepper 2 tbsp.
+\n\nCardamoms 3-4 pod
+\n\nSmall Cardamom 3-4 pods
+\n\nCinnamon 3-4 sticks
+\n\nNut Meg 1 whole
+\n\nMace 1-2 tbsp
+\n\nGrind all together
+\n\nOil for frying
+\n\nEggs boiled and sliced 2-3
+\n\nEgg 1
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In mince add vinegar,ginger/garlic, salt, garam masala powder, potatoes,onion, mint leaves.
+\n\n2. Add enough water to cover and mince boiled and done.
+\n\n3. Remove the potatoes and chopperized the mince.
+\n\n4. Mashed the boiled potatoes and mix well with the mince add I egg slightly beaten.
+\n\n5. Now flattern the prepared mixture on your palm put 1 pc. of sliced egg and form like cutlets shape.
+\n\n6. Make all in a same way.
+\n\n7. Now fry these squaches in oil and serve with ketchup. "/>
+</LinearLayout>
+</ScrollView>

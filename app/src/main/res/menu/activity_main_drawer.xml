@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_frag1"
+            android:icon="@drawable/ichome"
+            android:title="Main Course"
+            />
+
+        <item
+            android:id="@+id/nav_frag2"
+            android:icon="@drawable/navfast"
+            android:title="Fast Food" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/navbbq1"
+            android:title="BBQ and Grill" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/breakbrunch1"
+            android:title="Breakfast and Brunch" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:title="Appetizers and Snacks"
+            android:icon="@drawable/snacks1"
+            />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/internat1"
+            android:title="International Cuisine"/>
+        <item
+            android:id="@+id/nav_south"
+            android:icon="@drawable/sweets1"
+            android:title="Desserts and Sweets"/>
+
+
+
+       <item android:title="Development Team">
+           <menu>
+        <item
+            android:id="@+id/nav_develop"
+            android:icon="@drawable/group"
+            android:title="Developers"/>
+        <item
+            android:id="@+id/nav_supervis"
+            android:icon="@drawable/supervise"
+            android:title="Supervisor"/>
+           </menu>
+       </item>
+    </group>
+
+
+
+</menu>

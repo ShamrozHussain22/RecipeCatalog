@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/strawbery"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Mlik 1 litre
+\n\nStrawberry 250 gms
+\n\nRabri 250 gms
+\n\nSugar 1 cup
+\n\nGreen Jelly 1 packet
+\n\nRed Jelly 1 packet
+\n\nFinely Chopped Almonds 50 gms
+\n\nCake Ras 100 gms
+\n\nCustard Powder (strawberry flavor) 1 tsp
+\n\nVanilla Essence 1 tsp
+\n\nButter 1 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a pan, boil milk add sugar.
+\n\n2. In a custard powder add water and dissolve.
+\n\n3. When mixture is thick, add vanilla essence and butter.
+\n\n4. In a pan, add water green jelly , red jelly and cook.
+\n\n5. Let it cool custard, add strawberry.
+\n\n6. In a dish, spread cake ras and pour custard.
+\n\n7. After this add rabri and jelly.
+\n\n8. In the end, garnish with finely chopped almonds and serve. "/>
+</LinearLayout>
+</ScrollView>

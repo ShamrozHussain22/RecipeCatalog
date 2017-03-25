@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/aloomatarmalai"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Boiled Potatoes	3
+\n\nChopped Green chilies	6
+\n\nPeas	1 cup
+\n\nFresh Cream	½ packet
+\n\nCrushed black pepper	1 tsp
+\n\nButter	1 tbsp
+\n\nOil	2 tbsp
+\n\nSalt	to tasteBoiled Potatoes	3
+\n\nChopped Green chilies	6
+\n\nPeas	1 cup
+\n\nFresh Cream	½ packet
+\n\nCrushed black pepper	1 tsp
+\n\nButter	1 tbsp
+\n\nOil	2 tbsp
+\n\nSalt	to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Mash the boiled potatoes.
+\n\n2. Add in 1 cup peas and mix it.
+\n\n3. In a karahi, add in 2 tbsp oil and 1 tbsp butter.
+\n\n4. Add in potatoes and peas. Cook it.
+\n\n5. Add in 1 tsp crushed black pepper, 6 chopped green chilies and salt.
+\n\n6. Add in ½ packet Fresh Cream and cook it for 5 minutes.
+\n\n7. Serve it with tomato ketchup. "/>
+</LinearLayout>
+</ScrollView>

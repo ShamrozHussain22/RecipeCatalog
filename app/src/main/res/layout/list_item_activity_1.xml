@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/acharichik"/>
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text=" Chicken 700 g.
+\n\n Garlic Paste 2 tbsp
+\n\n Onions 2
+\n\n Turmeric Paste 1 tbsp
+\n\n Yogurt 250 g
+\n\n Fennel Seeds 1 tbsp
+\n\n Mustard Seeds 1 tbsp
+\n\n Cumin Seeds 1 tbsp
+\n\n Nigella Seeds ½ tsp
+\n\n Carom Seeds ½ tsp
+\n\n Fenugreek Seeds 1 tsp
+\n\n Whole Red Chilies 10-15
+\n\n Amchur 4 tbsp
+\n\n Chaat Masala 2 tbsp
+\n\n Green Chilies 8-10
+\n\n Mustard Oil 2-3 tbsp
+\n\n Oil 2-3 tbsp
+\n\n Salt to taste
+"
+        android:id="@+id/textView" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Dry roast fennel seeds, mustard seeds, cumin seeds, nigella seeds, carom seeds, fenugreek seeds and whole red chilies in a pan
+\n\n2. Then crush this mixture coarsely and separate 1 tbsp
+\n\n3. Add chaat masala to these spices and fill green chilies with it. Set aside\n
+\n\n4. Heat mustard oil in pan, fry onion and garlic paste\n
+\n\n5. Now add chicken\n
+\n\n6. Mix in turmeric paste, amchur and salt\n
+\n\n7. Add yogurt and cook well\n
+\n\n8. After that add water\n
+\n\n9. When gravy becomes thick, add green chilies and let it simmer\n
+\n\n10. Dish out and serve "/>
+</LinearLayout>
+</ScrollView>

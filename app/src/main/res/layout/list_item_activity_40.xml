@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/pomegranate"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Apple 1
+\n\nWalnuts (chopped) 8-10
+\n\nPomegranate 1
+\n\nSpring onion bulbs 2
+\n\nSalt to taste
+\n\nCrushed black peppercorns 1 tsp
+\n\nMustard paste 1/2 tbsp
+\n\nVinegar 2 tsp
+\n\nExtra virgin olive oil 2 tbsp
+\n\nHoney 2 tbsp
+\n\nIceberg lettuce leaves 7-8
+\n\nFeta cheese for garnish
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Chop spring onion bulbs. Halve apple and slice it. To make the dressing, combine spring onion bulbs, salt, crushed peppercorns, mustard paste, vinegar, olive oil and honey in a bowl. Tear lettuce leaves and add to the dressing. Add apple. Halve pomegranate, remove the kernels, and add to the salad. Add walnuts and toss to mix. Transfer salad into a serving bowl. Break the feta cheese and place on top. Serve immediately. "/>
+</LinearLayout>
+</ScrollView>

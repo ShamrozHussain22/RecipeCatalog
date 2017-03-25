@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/acharipasta"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Mince 1 kg
+\n\nRidged Elbow 1 packet
+\n\nTomatoes 250 gms
+\n\nGreen Chilies 10
+\n\nCoriander Leaves ½ bunch
+\n\nOil ½ cup
+\n\nCrushed Red Chilies 1 tsp
+\n\nGinger Garlic Paste 1 tsp
+\n\nRed Chili Powder 1 tsp
+\n\nSalt ½ tsp
+\n\nTamarind Pulp 2 tbsp
+\n\nAchar Masala 2 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In the mince, add red chilies, salt, coriander leaves, finely chopped green chilies, ginger garlic paste, tamarind pulp.
+\n\n2. In a clay pot, heat oil, add tomatoes paste, achar masala, salt, red chili powder, and yogurt and fry well.
+\n\n3. Add masala mince and fry add ridged elbow.
+\n\n4. In the end , Before serving, Sprinkle green chilies and coriander leaves. "/>
+</LinearLayout>
+</ScrollView>

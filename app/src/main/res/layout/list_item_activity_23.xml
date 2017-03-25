@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/beefnugget"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Beef Mince 300 grams
+\n\nCorn Flour ½ cup
+\n\nBread Crumbs 1 cup
+\n\nCrushed Black Pepper ½ tsp
+\n\nWhite Pepper Powder ½ tsp
+\n\nGarlic Powder ½ tsp
+\n\nEggs 2-3
+\n\nChinese Salt ½ tsp
+\n\nOil for frying
+\n\nSalt to taste
+\n\nFor Decoration
+\n\nLettuce Leaves as required
+\n\nTomatoes 2
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Take 300 grams of a beef mince add to taste salt, ½ tsp of garlic powder, ½ tsp of crushed black pepper powder, ½ tsp of white pepper powder, ½ tsp of Chinese salt chop it into the chopper.
+\n\n2. Now take a mixing bowl add 3 eggs and beat it.
+\n\n3. Now take the beef mixture add it into any mold or shape it with hands like nuggets then coat into ½ cup of corn flour then coat into beat eggs then coat with 1 cup of bread crumbs.
+\n\n4. Now repeat this process and ready all the nuggets.
+\n\n5. Take a deep wok add oil, heat the oil and fry the nuggets slowly slowly till its golden brown.
+\n\n6. Make sure the flame is not high.
+\n\n7. At last take it out in a serving platter and garnish with as required lettuce leaves 2 tomatoes and serve it. "/>
+</LinearLayout>
+</ScrollView>

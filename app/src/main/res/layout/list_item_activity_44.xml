@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bombaybir"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Rice ½ kg
+\n\nOil ¾ cup
+\n\nBrown onion 1 cup
+\n\nMutton 750 gm
+\n\nYogurt 1 cup
+\n\nGinger garlic 2 tbsp
+\n\nCoriander powder 2 tsp
+\n\nChili powder 3 tsp
+\n\nTurmeric ½ tsp
+\n\nAllspice 1 tsp heaped
+\n\nSalt 1 ½ tsp
+\n\nGreen cardamom grinded ½ tsp
+\n\nPotatoes 4 cut and fried till golden
+\n\nTomatoes 4 sliced
+\n\nGreen chilies whole 8
+\n\nDried plums 10
+\n\nCoriander leaves ½ cup chopped
+\n\nMint 20 leaves
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Boil rice with salt until ¾ done.
+\n\n2. Heat oil add half brown onion, mutton, ginger garlic paste, fry for 10 minutes
+\n\n3. Add yogurt with all dry spices, cover and cook for 15 minutes add 1 ½ cup water, again cover and cook till mutton done.
+\n\n4. Add in it boiled potatoes, sliced tomatoes, green chilies, dried plums, again cover and cook for 10 to 15 minutes.
+\n\n5. Lastly add coriander, mint, remaining brown onion, top with boiled rice, add yellow color, mixed with Kewra and ½ cup milk.
+\n\n6. Leave it on dum until done. "/>
+</LinearLayout>
+</ScrollView>

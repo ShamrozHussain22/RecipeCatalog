@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/cheeseparatha"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken Fillet 2
+\n\nCottage Cheese (grated) 1 packet
+\n\nBlack Pepper (crushed) 1 tsp
+\n\nSalt to taste
+\n\nGreen Chilies (crushed) 4
+\n\nCoriander Leaves (finely chopped) 1 bunch
+\n\nWhole Wheat 2 cups
+\n\nOil (for frying) as required
+\n\nFlour 2 tbsp
+\n\nFor Boiling Chicken:
+\n\nGarlic 4 cloves
+\n\nBlack Pepper 4
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Boil chicken fillets with 4 garlic cloves and 4 black pepper. Now finely chop chicken fillets
+\n\n2. Knead 2 cups whole wheat with salt.
+\n\n3. Mix together 1 packet cottage cheese, finely chopped chicken, crushed green chilies, 1 tsp crushed black pepper, 1 bunch finely chopped coriander leaves and salt .
+\n\n4. NOow dissolve 2 tbsp flour in some water and keep it aside.
+\n\n5. Roll small dough balls in the shape of a roti and spread ready chicken and cheese mixture in between. Now brush the edges of the roti with flour mixture and place another roti and seal the edges.
+\n\n6. Heat tawa and cook roti from both sides with oil and serve hot wit chutney. "/>
+</LinearLayout>
+</ScrollView>

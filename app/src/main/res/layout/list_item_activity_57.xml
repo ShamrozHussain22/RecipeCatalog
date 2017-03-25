@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/icecreamfruit"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="For Icecream:
+\n\nStrawberries Plumb 2 cup
+\n\nCream 1packet
+\n\nMilk 1 cup
+\n\nCondensed Milk 1 cup
+\n\nSugar 1/2cup
+\n\nLukewarm Water 1/2cup
+\n\nGelatin Powder1tsp
+\n\n\nFor Custard:
+\n\nMilk ½ litre
+\n\nMix Fruit 2cup
+\n\nSugar 1/2cup
+\n\nWipped Cream 100gms
+\n\nCherry as required
+\n\nVanilla Essence 1/2tsp
+\n\nStrawberry Custard 2 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="For making icecream:
+\n\n1. Dissolve gelatin powder in water.
+\n\n2. In a blender, add strawberries plumb, milk, cream, gelatin powder,sugar,condensed milk and blended well.
+\n\n3. Pour in box and freeze it.
+\n\nFor making custard:
+\n\n1. Boil milk add custard, sugar and let it cook.
+\n\n2. Now add vanilla essence and ice cream.
+\n\n3. Garnish with wipped cream, Add mix fruit and cherry.
+\n\n4. Delicious Icecream Fruit Custard is ready. "/>
+</LinearLayout>
+</ScrollView>

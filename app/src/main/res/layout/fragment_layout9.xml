@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg"
+    >
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leader:"
+        android:layout_marginTop="46dp"
+        android:textColor="#212121"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member:"
+        android:layout_marginTop="146dp"
+        android:textStyle="bold"
+        android:textColor="#212121"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member:"
+        android:layout_marginTop="246dp"
+        android:textStyle="bold"
+        android:textColor="#212121"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shamroz Hussain \n2013-ag-4340 \nBS(Software Engineering)"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#0a0909"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seemab Tahir \n2013-ag-4322 \nBS(Software Engineering)"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0a0909"
+
+        android:layout_marginTop="130dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvsj"
+            android:text="Saima jabeen \n2013-ag-4342 \nBS(Software Engineering)"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0a0909"
+
+        android:layout_marginTop="230dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvuaf"
+        android:layout_height="wrap_content"
+        android:text="Department of Computer Science. \nUniversity of Agriculture, Faisalabad."
+        android:layout_gravity="center_horizontal"
+        android:textColor="#212121"
+        android:layout_marginTop="320dp"
+        android:padding="10dp"
+
+        />
+
+
+
+</FrameLayout>

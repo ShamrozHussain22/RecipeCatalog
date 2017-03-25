@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/chinesepulao"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Sela Rice ½ kg
+\n\nChicken 300 grams
+\n\nChopped Garlic 4-5 cloves
+\n\nCarrot (Slice) 1
+\n\nCapsicum (Slice) 1
+\n\nCabbage half
+\n\nSpring Onion 1-2 strands
+\n\nChicken Cube 1
+\n\nCrushed Black Pepper 1 tsp
+\n\nSoya Sauce 1 tbsp
+\n\nChinese Salt 1/3 tsp
+\n\nClarified Butter or Oil 2-3 tbsp
+\n\nSalt to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Take ½ kg of sela rice clean it, wash it off and soaked for 1-2 hours.
+\n\n2. Take a cooking pan add 2-3 tbsp of clarified butter or oil, heat it then add 4-5 chopped garlic cloves, 300 grams of chicken, roasted add 1 tbsp of soya sauce,1 carrot (slices), 1 capsicum (slices) and ½ cabbage, mix it well.
+\n\n3. Now add 1 chicken cube and as required water, ½ kg of soaked sela rice and cook.
+\n\n4. When the rice is done take it out in a serving platter and garnish with 1-2 strands of spring onion and serve it.
+ "/>
+</LinearLayout>
+</ScrollView>

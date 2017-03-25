@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/chicksheesh"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="½ kg chicken mince
+\n\n2 bread slices
+\n\n2 tbsp yogurt cream
+\n\n1 chopped onion
+\n\n2 chopped kashmiri chilies
+\n\n1 tsp ginger garlic paste
+\n\n1 tsp roasted cumin powder
+\n\n1 tsp all spice powder
+\n\n1 bunch chopped coriander
+\n\n3 green chilies
+\n\n2 lemons
+\n\n1 egg
+\n\nSalt as required
+\n\n\nMint chutney:
+\n\n1 bunch mint leaves
+\n\n6 green chilies
+\n\n4 garlic cloves
+\n\n1 tsp white cumin
+\n\nSalt as required
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Take a bunch mint leaves, 4 chopped garlic and 1 tsp cumin and grind it. Add in salt. Cook it.
+\n\n2. Grind together chicken mince and bread slices chop them.
+\n\n3. Chopped kashmiri mirch, chopped green chilies, a bunch green coriander, salt. Coriander, all spice powder and an egg. Mix it. Make kabab and fry them. Grease the baking tray and bake the kabab. Brush butter on them and serve. "/>
+</LinearLayout>
+</ScrollView>

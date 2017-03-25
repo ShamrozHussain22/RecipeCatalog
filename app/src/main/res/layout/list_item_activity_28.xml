@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/nuggetdip"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Boneless chicken breasts 2
+\n\nSalt to taste
+\n\nLemon juice 2 tsp
+\n\nFresh parsley 2 tsp
+\n\nThyme 1 tsp
+\n\nEgg 1
+\n\nBreadcrumbs 1 cup
+\n\nOil for deep-frying
+\n\nFresh parsley for garnish
+\n\n\nFor Dip:
+\n\nMayonnaise 4 tbsp
+\n\nTomato ketchup 2 tbsp
+\n\nPaprika powder 1 tsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Slice chicken breasts into bite size pieces and put in a bowl.
+\n\n2. Add salt, lemon juice, 1 tsp chopped parsley and thyme.
+\n\n3. Rub the pieces well and set aside to marinate.
+\n\n4. Break egg in a bowl and beat well.
+\n\n5. Add this to the marinated chicken and mix well.
+\n\n6. Spread breadcrumbs on a plate.
+\n\n7. Coat marinated chicken pieces evenly in breadcrumbs and deep-fry in hot oil till golden and crisp.
+\n\n8. Drain on absorbent paper.
+\n\n9. To make dip, combine mayonnaise, tomato ketchup, paprika powder and mix well.
+\n\n10. Add 1 tsp chopped parsley and mix well.
+\n\n11. Garnish crispy chicken pieces with little chopped parsley and serve hot with prepared dip. "/>
+</LinearLayout>
+</ScrollView>

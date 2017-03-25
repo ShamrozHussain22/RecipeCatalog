@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/qeemaparatha"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Beef Mince 1 kg
+\n\nRed chili 1 tbsp
+\n\nTurmeric 1 tsp
+\n\nGinger Garlic paste 1 tbsp
+\n\nSalt to taste
+\n\nChopped Onion 3
+\n\nLemons 2
+\n\nChopped Green chilies 4
+\n\nChopped Green Coriander 1 bunch
+\n\nOil 1 cup
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a pan, add in 1 cup oil and add in 3 chopped onion fry it till they are golden brown.
+\n\n2. Add in 1 tbsp ginger garlic paste, 1 tsp turmeric and 1 tbsp red chili powder and cookit with some water.
+\n\n3. Add in 1 kg mince and some salt.
+\n\n4. Add in 4 chopped green chilies, 1 bunch of green coriander and 2 lemon juice, add in lemon juice and simmer it for 5 minutes and serve hot. "/>
+</LinearLayout>
+</ScrollView>

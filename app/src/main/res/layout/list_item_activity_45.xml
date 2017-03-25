@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/creolechick"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken drumsticks	1 kg
+\n\nBrown sugar	1/4 cup
+\n\nOlive oil	1 tbsp
+\n\nChopped onions	4
+\n\nCrushed garlic	2 cloves
+\n\nGreen capsicums	(cubed) 3
+\n\nTomato paste	8 ounces
+\n\nRaisins	1 cup
+\n\nChicken stock	2 cups
+\n\nBay leaf	1
+\n\nSalt	to taste
+\n\nPepper	to taste
+\n\nChopped fresh parsley	1 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Rub the chicken pieces with brown sugar.
+\n\n2. In a large pan, fry the chicken quickly in hot oil (the sugar must not burn).
+\n\n3. When browned, remove to a dish. Sauté the onions and garlic in oil until soft.
+\n\n4. Add the capsicums, tomato paste, raisins, curry powder, chicken stock, bay leaf, salt, black pepper and parsley.
+\n\n5. Simmer for about 5 minutes.
+\n\n6. Pour the sauce mixture over the chicken, cover and let cook until tender.
+\n\n7. Creole Chicken is ready to serve. "/>
+</LinearLayout>
+</ScrollView>

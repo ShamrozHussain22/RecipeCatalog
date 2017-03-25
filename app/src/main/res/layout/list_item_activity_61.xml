@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bbqkofta"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken Mince ½ kg
+\n\nGinger Garlic Paste 1 tbsp
+\n\nChopped Onion 1
+\n\nChopped Spring Onion 1
+\n\nBread Crumbs ½ cup
+\n\nThyme 1 pinch
+\n\nWorcester Sauce 1 tbsp
+\n\nPaprika Powder 1 tsp
+\n\nCrushed Black Pepper 1 tsp
+\n\nWhite Pepper Powder ½ tsp
+\n\nOil 1-2 tbsp
+\n\nSalt to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Take a chopper add ½ kg of chicken mince, 1 tbsp of ginger garlic paste, 1 chopped onion, 1 chopped spring onion, ½ cup of bread crumbs, 1 pinch of thyme, 1 tbsp of soya sauce, 1 tsp of paprika powder, 1 tsp of crushed black pepper, ½ tsp of white pepper powder and to taste salt mix it well. Now skewer it into barbeque sticks. If you want to cook on a low flame with smoke of coal or bake it smoke with coal, or steam it and fry. At last garnish with lettuce leaves and sauce serve it. "/>
+</LinearLayout>
+</ScrollView>

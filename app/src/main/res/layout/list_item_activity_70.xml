@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/tawaqeema"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Garlic, chopped 1 tbsp
+\n\nGinger, chopped 1 tbsp
+\n\nDesi ghee ¼ cup
+\n\nGreen chilies 3
+\n\nRed chili, crushed 2 tsp
+\n\nKasoori methi 1 tsp
+\n\nTurmeric powder 2 tsp
+\n\nGaram masala powder 1 tsp
+\n\nFennel seeds, crushed 1 tsp
+\n\nMango pickle paste 1 tbsp
+\n\nSalt to taste
+\n\nOnions 4
+\n\nSpring onions 2
+\n\nTomatoes 5
+\n\nChicken mince, hand chopped 500 gm
+\n\nFresh coriander ½ bunch
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Sauté garlic and ginger on tawa with desi ghee.
+\n\n2. Add all the spices along with the onions, chopped tomatoes and pickle paste and cook well.
+\n\n3. Then add mince, cook for at least 10 minutes.
+\n\n4. Finally put fresh coriander and serve.
+ "/>
+</LinearLayout>
+</ScrollView>

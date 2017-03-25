@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bbqbiryani"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Column I:
+\n\nChicken	1 kg 16 pieces
+\n\nCoriander crushed	1 tsp
+\n\nSalt	1 ½ tsp
+\n\nAllspice	1 tsp
+\n\nChili powder	1 tsp
+\n\nGinger garlic	1 tbsp
+\n\nTikka masala	4 tbsp
+\n\nYogurt	1 cup
+\n\nOrange color pinch
+\n\n\nColumn II:
+
+\n\nOil	½ cup
+\n\nGreen chilies	4 sliced
+\n\nBoiled rice	½ kg
+\n\nCoriander leaves	3 tbsp
+\n\nGinger sliced	1 tbsp
+\n\nChili powder	1 tbsp
+\n\nTomatoes  chopperized	2
+\n\nSalt	½ tsp
+\n\nAllspice	½ tsp
+\n\nGinger garlic	1 tsp
+\n\nTurmeric	½ tsp
+\n\nBrown onion	½ cup
+\n\nKewra	1 tsp
+\n\nYellow color pinch
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Marinate chicken with all above in column I for 2 hours.
+\n\n2. Put chicken in oven and bake for 30 minutes until done, give dum of coal.
+\n\n3. Heat ½ cup oil add brown onion with ginger garlic, chili powder, salt, turmeric, tomatoes, yogurt, fry well till oil comes on top.
+\n\n4. Add in chopped greens and ginger sliced. Spread boiled rice on top sprinkle Kewra water and color.
+\n\n5. leave it on dum for 15 minutes. Mix and remove in a platter, top with BBQ chicken boti.
+\n\n6. Serve with salad and raita. "/>
+</LinearLayout>
+</ScrollView>

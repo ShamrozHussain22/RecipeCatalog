@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/malaiseekh"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Mince ½ kg
+\n\nChopped onion 2
+\n\nGreen chilies10
+\n\nMint leaves 15
+\n\nGreen coriander as required
+\n\nSalt 1 tsp
+\n\nCream 3 tbsp
+\n\nRed chili 1 tsp
+\n\nAll spice powder 1 tsp
+\n\nGinger garlic paste 1 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Chop together ½ kg mince, chopped onio, 10 green chilies, 15 mint leaves, 2 tbsp green coriander, 1 tsp salt, 3 tbsp cream, 2 tbsp green coriander, 1 tsp All spice powder and 1 tbsp ginger garlic paste and grind it.
+\n\n2. Set the mixture on the BBQ sticks and grill them.
+\n\n3. Simmer it and serve it with tomatoes and onion rings. "/>
+</LinearLayout>
+</ScrollView>

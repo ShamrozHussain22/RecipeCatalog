@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/browniepudd"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Flour	1 cup
+\n\nCaster sugar	3/4 cup
+\n\nCocoa powder	2 tbsp
+\n\nBaking powder	2 tsp
+\n\nSalt	1/4 tsp
+\n\nMilk	1/2 cup
+\n\nOil	2 tbsp
+\n\nVanilla essence	1 tsp
+\n\nChopped walnuts	1/2 cup
+\n\nPacked brown sugar	3/4 cup
+\n\nCocoa powder	1/4 cup
+\n\nBoiling water
+\n\nVanilla ice cream	(optional) to serve
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Stir together the flour, caster sugar, 2 tablespoons cocoa powder, baking powder, and salt.
+\n\n2. Stir in the milk, oil, and vanilla. Stir in the walnuts.
+\n\n3. Pour batter into greased 8-inch square pan.
+\n\n4. In a small bowl stir together the brown sugar and 1/4 cup cocoa powder.
+\n\n5. Stir in the boiling water.
+\n\n6. Slowly pour brown sugar mixture over batter.
+\n\n7. Bake in the preheated oven for 40 minutes.
+\n\n8. Transfer to a wire rack and cool for 45 to 60 minutes.
+\n\n9. Spoon cake into dessert bowls and spoon pudding from the bottom of the pan over cake. Serve with vanilla ice cream.
+\n\n10. Serve warm. "/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/sindhibiryani"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Soaked rice 1-1/2 cups
+\n\nChicken ½ kg
+\n\nChicken mince 1/4 cup
+\n\nSalt to taste
+\n\nTurmeric powder 1 tsp
+\n\nRed chilli powder 1 tsp
+\n\nGaram masala powder 1 tsp
+\n\nGarlic paste 1 tbsp
+\n\nGinger paste 1 tbsp
+\n\nYogurt 1 cup
+\n\nOil 2 tbsp
+\n\nGhee 4 tbsp
+\n\nCumin seeds 1 tsp
+\n\nCinnamon 1 inch stick
+\n\nBlack cardamoms 2
+\n\nGreen cardamoms 5
+\n\nCloves 6
+\n\nSliced onions 3 medium
+\n\nPotato (½ inch cubes) 1 large
+\n\nChopped green chillies 4
+\n\nChopped mint leaves 2 tbsp
+\n\nSaffron 8-10 strands
+\n\nMilk 2 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Add salt, turmeric powder, red chilli powder, garam masala powder, garlic paste and ginger paste to the chicken and mix.
+\n\n2. Add yogurt and oil and mix and leave to marinate.
+\n\n3. Heat ghee in a pan.
+\n\n4. Add cumin seeds, cinnamon, black cardamoms, green cardamoms, cloves and onions and sauté.
+\n\n5. Add chicken qeema and stir and continue to sauté.
+\n\n5. Break the qeema lumps with the ladle as you sauté.
+\n\n6. Add potato and sauté. Add salt, green chillies and chicken and stir well.
+\n\n7. Add mint leaves and rice and stir to mix well.
+\n\n8. Add water and mix.
+\n\n9. When the mixture comes to a boil, reduce heat and add saffron milk.
+\n\n10. Cover and cook till both the rice and chicken are cooked. "/>
+</LinearLayout>
+</ScrollView>

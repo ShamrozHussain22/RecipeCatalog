@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/teriyakichick"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Soya sauce	1/2 cup
+\n\nPacked dark brown sugar	2 tbsp
+\n\nChopped garlic	1 clove
+\n\nFresh ginger (peeled and chopped)	1/2-inch piece
+\n\nCorn flour	1-1/2 tsp
+\n\nChicken drumsticks	1 kg
+\n\nSalt	to taste
+\n\nPepper	to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Combine soya sauce, brown sugar, garlic, ginger and corn flour in a small saucepan.
+\n\n2. Add 2 tbsp water and bring to a boil over high heat, stirring constantly until thickened, about 2 minutes.
+\n\n3. Cool slightly and strain, discarding solids.
+\n\n4. Season drumsticks with salt and pepper on all sides.
+\n\n5. Pour sauce over and turn drumsticks several times to coat thoroughly.
+\n\n6. Let  marinate for a while and then broil or grill or cook in a pan until chicken is browned and tender, you may need to add water a little at a time, so the sauce doesn’t scorch.
+\n\n7. Teriyaki Chicken is ready to serve. "/>
+</LinearLayout>
+</ScrollView>

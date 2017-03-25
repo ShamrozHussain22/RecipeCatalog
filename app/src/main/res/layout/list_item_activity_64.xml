@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/golakabab"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Beef Mince	1 kg
+\n\nFried Onions	375g
+\n\nEggs	2
+\n\nGinger Garlic Paste	1 tbsp
+\n\nAll Spice Powder	2 tsp
+\n\nYogurt	4 tbsp
+\n\nCoconut Powder	4 tbsp
+\n\nNutmeg and Mace Powder	1 tsp
+\n\nSalt	1 tsp
+\n\nOil	as required
+\n\nRaw Papaya	2 tbsp
+\n\nGreen Chilies	4
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a chopper, add 1 kg beef mince; 375g fried onions and 4 green chilies and finely chop them.
+\n\n2. Now add 2 eggs, 1 tbsp ginger garlic paste, 2 tsp all spice powder, 4 tbsp yogurt, 4 tbsp coconut powder, 1 tsp mace, nutmeg, 1 tsp salt and 2 tbsp raw papaya and mix it and make gola kabab and freeze it.
+\n\n3. Now bake it in the oven and fry it.
+\n\n4. Gola kabab are ready to serve
+ "/>
+</LinearLayout>
+</ScrollView>

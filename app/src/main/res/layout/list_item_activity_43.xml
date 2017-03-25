@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bangladeshi"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken 1 kg cut into 4 pieces give cuts on both sides
+\n\nGinger garlic 2 tbsp
+\n\nYogurt 1 cup
+\n\nSugar 1 tbsp
+\n\nSalt 1 ½ tsp
+\n\nMixed Whole spices 1 tbsp
+\n\nBay leaf 1
+\n\nWhole red chilies 15
+\n\nOnion 1 large chopped
+\n\nOil ¼ cup
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Marinate chicken pieces with yogurt, sugar, ginger garlic, salt, leave it for 4 hours.
+\n\n2. Heat ¼ cup oil add 1 large chopped onion fry till soft and very light golden.
+\n\n3. Add whole spices, whole red chilies, marinated chicken.
+\n\n4. Fry well till chicken golden on low flame for 10 minutes.
+\n\n5. Then add the marination, cover and cook till done. Remove. "/>
+</LinearLayout>
+</ScrollView>

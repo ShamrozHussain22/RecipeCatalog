@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/lobiachana"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Red Lobia 1 cup
+\n\nKabuli Chickpeas 1 cup
+\n\nBlack Lentils ½ cup
+\n\nTamarind Pulp 1 cup
+\n\nTomato Sauce 1 cup
+\n\nTomato Puree ½ Tin
+\n\nGreen Chilies (julienned) 8-10
+\n\nSoda bi-Carb 1 tsp
+\n\nDried Ginger 2 tbsp
+\n\nCumin (roasted and ground) 1 tbsp
+\n\nOnions (finely chopped) 2
+\n\nSalt to taste
+\n\nLemons 2
+\n\nMint Leaves (chopped) 1 bunch
+\n\nOil 2 tbsp
+\n\nRed Pepper (crushed) 1 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Wash and soak red lobia in luke warm water
+\n\n2. Wash and soak chickpeas in luke warm water
+\n\n3. Remove lobia from water, add fresh water and leave it to cook. Remove and keep it aside. Boil chickpeas the same way.
+\n\n4. Cook black lentils, when it’s tender enough add soda.
+\n\n5. Heat oil in a large pan , add lobia and fry for about 5 min, now add tomato sauce, crushed red pepper and salt.
+\n\n6. After 5 min add tomato puree, cumin and tamarind pulp. Leave it to cook on low flame
+\n\n7. Add green chilies and leave it to simmer
+\n\n8. Lastly add onions, mint, lemon and green chilies.
+\n\n9. Lobia Chana Masala by Zubaida Tariq is ready to serve. "/>
+</LinearLayout>
+</ScrollView>

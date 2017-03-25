@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/peshawarikabab"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Potatoes (boiled) ½ kg
+\n\nCarrots (grated) 2
+\n\nDill (finely chopped) 2 bunch
+\n\nGreen Chilies (crushed) 6
+\n\nPeas (peeled) ½ cup
+\n\nPod Seam 8
+\n\nCumin (roasted and ground) 1 tsp
+\n\nBlack Pepper (crushed) 1 tsp
+\n\nRed Pepper 9crushed) 1 tbsp
+\n\nRice Flour 3 tbsp
+\n\nEgg Whites 2
+\n\nBread Crumbs as required
+\n\nSalt to taste
+\n\nLemons 2
+\n\nCoriander Leaves 1 bunch
+\n\nOil (for frying) as required
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Add peas , seam in a chopper and chop well.
+\n\n2. Mash boiled potatoes.
+\n\n3. Make kababs wiby mixing boiled potatoes, peas, seam mixture with lemon juice, green chilies, carrots, coriander , cumin, black pepperand rice flour.
+\n\n4. Dip in egg white, roll in crumbs and fry  "/>
+</LinearLayout>
+</ScrollView>

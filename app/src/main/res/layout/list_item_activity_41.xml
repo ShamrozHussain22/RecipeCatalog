@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/amratsari"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Boneless fish fillet 500 gm cut into fingers
+\n\nSalt 1 tsp
+\n\nLemon juice 1 tbsp
+\n\nCrushed red pepper 1 tsp
+\n\nTurmeric ¼ tsp
+\n\n\nIngredients for batter:
+\n\nFlour 3 tbsp
+\n\nCorn flour 4 tbsp
+\n\nRice flour 2 tbsp
+\n\nGram flour 2 tbsp
+\n\nEgg 1
+\n\nGinger garlic paste 1 tsp
+\n\nSalt ½ tsp
+\n\nChili powder 1 tsp
+\n\nYellow color pinch
+\n\nWater to make batter
+\n\nChat masala ½ tsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Marinate fish with salt, turmeric, crushed red pepper, lemon juice and gram flour for 30 minutes wash well to remove all smell.
+\n\n2. Mix together all the ingredients for batter in a bowl and make it into a pouring consistency batter.
+\n\n3. Add fish in it, deep fry to a golden color on low heat till golden and crisp.
+\n\n4. Sprinkle chat masala, serve hot with chatni. "/>
+</LinearLayout>
+</ScrollView>

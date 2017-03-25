@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/galwatitikka"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken Tikka Pieces 4
+\n\nPapaya 1 tbsp
+\n\nYogurt ½ cup
+\n\nGreen Chili Paste 2 tbsp
+\n\nCoriander Paste 1 tbsp
+\n\nMint Paste 1 tbsp
+\n\nGinger Garlic Paste 1 tbsp
+\n\nTamarind Juice ½ cup
+\n\nGaram Masala Powder 2 tsp
+\n\nCumin Seeds (roasted) 2 tbsp
+\n\nRed Chili Powder 1 tsp
+\n\nOil 4 tbsp
+\n\nCoal as required
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Marinate chicken tikka pieces with yogurt, papaya, green chili paste,coriander paste, mint paste, tamarind juice, garam masala powder, roasted cumin seeds, red chili powder and leave it half an hour.
+\n\n2. Now in a pan, heat oil add chicken tikka pieces and cover it 20 minutes.
+\n\n3. When they are tender , removes from the stove and give coal steam.
+ "/>
+</LinearLayout>
+</ScrollView>

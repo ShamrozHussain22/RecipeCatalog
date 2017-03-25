@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/spicyrolls"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Roll Wraps 1 dozen
+\n\nChicken Fillet 2
+\n\nCabbage (chopped) 1 small flower
+\n\nCarrots (grated) 2
+\n\nSoya Sauce 1 tbsp
+\n\nWhite Vinegar 1 tbsp
+\n\nCapsicum (chopped) 1
+\n\nSugar 1 tap
+\n\nSalt to taste
+\n\nChicken Cube Flour 1 tsp
+\n\nEgg Whites 2
+\n\nSesame Seed Oil 1 tsp
+\n\nGinger Garlic 1 tsp
+\n\nBlack Pepper (crushed) 1 tsp
+\n\nOil to fry
+\n\nRed Chili Flakes 1 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Cook Chicken fillet with 1tsp Ginger Garlic Paste, salt and dry them in its own water.
+\n\n2. In a karahi, take 2 tbsp oil, chicken boti, chopped cabbage, grated carrot and chopped Capsicum. Stir Fry it.
+\n\n3. Add in 1 tbsp soya sauce, 1 tbsp white vinegar, sugar, crushed black pepper, 1 tbsp Crushed red Chili and 1 tsp Chicken cube flour. Mix it and cool it.
+\n\n4. Fill in the mixture in the roll wrap and wrap it with egg white.
+\n\n5. Deep fry them till golden brown.
+\n\n6. Serve with tomato ketchup. "/>
+</LinearLayout>
+</ScrollView>

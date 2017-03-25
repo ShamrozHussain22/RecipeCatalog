@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/californiapunch"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Fresh Oranges 4
+\n\nLemon 4
+\n\nGrape Juice 1 cup
+\n\nPineapple Juice 1 cup
+\n\nSugar ½ cup
+\n\nWhite Soda 200 ml
+\n\nIce Cubes as required
+\n\nSalt to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Take a cooking pan add 4 lemon fresh peel, 4 orange fresh peel add 3 cups of water and add ½ cup of sugar cook for 10 minutes, and let it cool down in a mixing bowl.
+\n\n2. Now add 1 cup of grape juice, 1 cup of pineapple juice as required ice cubes and add to taste salt mix it well.
+\n\n3. At last add 200 ml of soda water and take it out in a serving glasses and serve it. "/>
+</LinearLayout>
+</ScrollView>

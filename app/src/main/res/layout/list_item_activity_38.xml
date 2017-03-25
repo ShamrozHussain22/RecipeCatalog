@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/mayochickcrock"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Boneless breast ½ kg chopperized
+\n\nGreen chilies 4
+\n\nSalt 1 tsp
+\n\nBlack pepper 1 tsp
+\n\nMustard paste ½ tsp
+\n\n\nIngredients for filling:
+\n\nCarrot 1
+\n\nPeas boiled 2 tbsp
+\n\nSweet corn 3 tbsp
+\n\nMushrooms 4 chopped
+\n\nSalt and pepper ¼ tsp each
+\n\nCheddar cheese grated ½ cup
+\n\nMayonnaise 2 tbsp
+\n\nCoriander leaves chopped 2 tbsp
+\n\nGreen chilies 2 finely chopped
+\n\nSpring onion leaves finely chopped 2 tbsp
+\n\nEggs beaten 2
+\n\nBread crumbs as required for coating
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Chopperize chicken breast with green chilies, salt, pepper, mustard and keep aside.
+\n\nMethod for filling:
+\n\n1. Finely chopped all the vegetables, boil carrots and peas, mix with grated cheese, mayonnaise, salt and pepper, chopped green masala, mix well.
+\n\n2. Mixture should be thick.
+\n\n3. Take mince chicken mixture in your hand, flatten very thinly, fill in vegetable mixture, made into oblong shape, dip in beaten egg, roll in bread crumbs.
+\n\n4. Chill for 30 minutes before frying.
+\n\n5. Deep fry on low flame.
+\n\n6. Mayo chicken crockets by Shireen Anwar is ready to serve. "/>
+</LinearLayout>
+</ScrollView>

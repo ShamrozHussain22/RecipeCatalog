@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/chococups"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chopped chocolate 4 oz
+\n\nCoffee 1/2 tsp
+\n\nSalt 1 pinch
+\n\nCream 1 cup
+\n\nCaster sugar 3 tbsp
+\n\nVanilla essence 1/2 tsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Stir chocolate, instant coffee, and salt together in a medium bowl.
+\n\n2. Heat cream, sugar, and vanilla essence in a saucepan, stirring constantly, until it just begins to simmer.
+\n\n3. Pour hot cream mixture over the chocolate mixture; let sit for 1 minute.
+\n\n4. Whisk the chocolate and cream mixture for 1-2 minutes until combined.
+\n\n5. Pour the mixture into four small espresso cups.
+\n\n6. Tap to remove any air bubbles.
+\n\n7. Chill thoroughly in the refrigerator for at least 4 hours.
+\n\n8. Serve topped with grated chocolate or add lightly whipped cream and dust with cocoa. "/>
+</LinearLayout>
+</ScrollView>

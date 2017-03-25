@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/crispyfrieddrum"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Wings Drumsticks ½ kg
+\n\nHoney 2 tbsp
+\n\nSoya Sauce 2 tbsp
+\n\nWhite Sesame Seeds ½ cup
+\n\nGinger Garlic Paste 1 tbsp
+\n\nSalt to taste
+\n\nLemons 2
+\n\nCrushed Black Pepper 1 tsp
+\n\nWhite Vinegar 2 tbsp
+\n\nOil to fry
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a pan, add in drumstick, add in soya sauce, white vinegar,salt and 1 tbsp ginger garlic paste. Steam it on low flame.
+\n\n2. When the water dries, take it out.
+\n\n3. Take some oil in the pan, and add in drumsticks.
+\n\n4. Fry till golden brown.
+\n\n5. Put them in a pan, add in honey, sesame seeds, lemon juice, crushed black pepper.
+\n\n6. When ceramal is ready serve it with drumsticks. "/>
+</LinearLayout>
+</ScrollView>

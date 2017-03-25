@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/masalatandoori"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken	½ kg
+\n\nLemons	3
+\n\nRoasted Cumin Powder	 1 tbsp
+\n\nCrushed Red Chili	 1 tbsp
+\n\nGinger Garlic Paste	 1 tbsp
+\n\nTandoori Masala	 2 tbsp
+\n\nOil as required
+\n\nSalt to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Wash chicken and keep it in the bowl.
+\n\n2. Add in lemon juice, roasted cumin, red chili flakes, 1 tbsp ginger garlic Paste, 2 tbsp tandoori Masala and some salt. Keep it for ½ an hour.
+\n\n3. Put them in BBQ sticks and grill it.
+\n\n4. Tandoori Chicken Masala by Zubaida Tariq is ready to serve. "/>
+</LinearLayout>
+</ScrollView>

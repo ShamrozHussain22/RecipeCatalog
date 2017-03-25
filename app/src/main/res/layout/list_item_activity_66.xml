@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/koylakabab"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Mince ½ kg
+\n\nEgg 1
+\n\nFried Onion 4
+\n\nGaram Masala Powder 1 tsp
+\n\nRaw Papaya 1 tsp
+\n\nYogurt 1 tbsp
+\n\nGinger Garlic Paste 1 tbsp
+\n\nRed Chili Powder 2 tsp
+\n\nMace ¼ tsp
+\n\nNutmeg ¼ tsp
+\n\nCardamom Powder ½ tsp
+\n\nOil as required
+\n\nSalt to taste
+\n\nCoal 1
+
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a blender, add mince, fried onion, raw papaya and blended well.
+\n\n2. In a mince add nutmeg ,mace, egg, garam masala powder, yogurt, ginger garlic paste, red chili powder, cardamom powder,salt and mix.
+\n\n3. Now make kabab.
+\n\n4. In a pan, heat oil and fry kabab, give coal steam. "/>
+</LinearLayout>
+</ScrollView>

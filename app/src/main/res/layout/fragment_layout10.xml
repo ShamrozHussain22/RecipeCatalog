@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivsuper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/vise"
+        />
+
+       <TextView
+           android:id="@+id/tvsname"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Ms Reheela Nasim"
+           android:padding="10dp"
+           android:textColor="#404040"
+            android:layout_marginLeft="140dp"
+           android:textStyle="bold"
+           android:layout_marginTop="50dp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Department:"
+           android:padding="10dp"
+           android:textColor="#404040"
+           android:textStyle="bold"
+           android:layout_marginTop="170dp"
+
+           />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty of Sciences, Department of Computer Science, University of Agriculture Faisalabad."
+        android:padding="10dp"
+        android:layout_marginTop="190dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Position:"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#404040"
+        android:layout_marginTop="140dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lecturer"
+        android:padding="10dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="60dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Research Intersts:"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:textColor="#404040"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="i.	Theoretical Foundation of Software Engineering. \nii.	Modeling and Enactment of Software Traditional and Agile Processes. \niii.	Software Architecture for Service oriented and cloud based provisioning. \niv.	State-of-the-art and State-of-the Practice in Software Architecture. \nv.	Evolution of requirements over time, product families and variability."
+        android:padding="10dp"
+        android:layout_marginTop="260dp"
+
+        />
+
+
+</FrameLayout>

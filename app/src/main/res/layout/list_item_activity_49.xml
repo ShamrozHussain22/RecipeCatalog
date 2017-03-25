@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/jaipurbir"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Mutton 750 gm
+\n\nBrown onion 1 cup
+\n\nGinger garlic paste 2 tbsp
+\n\nChili powder 1 tbsp
+\n\nSalt 1 tbsp
+\n\nOil ¾ cup
+\n\nWhite cardamom 4
+\n\nWhole spices mixed 1 tbsp
+\n\nYogurt 1 cup
+\n\nKewra water 1 tbsp
+\n\nYellow color pinch
+\n\nSaffron ¼ tsp
+\n\nRice 600 gm boiled with 2 tbsp salt
+\n\nMace ¼ tsp grinded
+\n\nNutmeg ¼ tsp grinded
+\n\nWhite cardamom ¼ tsp grinded
+\n\nAlmonds 12 grinded
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Heat oil add ginger garlic paste, salt, red chili, whole spices, mutton, brown onion, cook till mutton gets tender, now add yogurt with grinded almonds, mace, nutmeg, white cardamom powder, cook until done, put boil rice on top of mutton mixture, add Kewra and yellow color, mixed with saffron, cover and leave it on dum for 15 to 20 minutes. "/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/fajitaspaghetti"/>
+
+
+        <TextView
+            android:id="@+id/tving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients:"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="#f54141"
+            android:textColor="#faf9f9"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#1e1e1e"
+            android:padding="5dp"
+            android:text="Boneless Chicken (cut into strips)	300 gms
+\n\nCapsicum (cut into strips)	1 pc
+\n\nOnion (cut into strips)	1 medium size
+\n\nTomato (cut into strips)	2 pcs
+\n\nCooking Oil	4 tbsp
+\n\nWater	3 cups
+\n\nCorn Flour	2 tbsp
+\n\nGarlic chopped	1 tbss
+\n\nBake Parlor Spaghetti, Bake parlor Masala Mixed Sachet (inside the packet)
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Method:"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="#f54141"
+            android:textColor="#faf9f9"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#1e1e1e"
+            android:padding="10dp"
+            android:text="1. Boil Bake Parlor Spaghetti in boiling salted water for 5-7 minutes or cook till tender but still firm to the bite.
+\n\n2. Drain and rinse under cold running water.
+\n\n3. Mix 1 tbsp of oil and set aside.
+\n\n4. Heat oil in a pan, add garlic and fry for a minute.
+\n\n5. Add chicken and fry for 3 minutes.
+\n\n6. Add bake parlor spice Mix sachet and fry for a minute.
+\n\n7. Mix corn flour in water and pour it in the pan while constantly mixing.
+\n\n8. Add capsicum, onion and cook for a minute.
+\n\n9. Now add strips of tomatoes and toss all the ingredients with Bake Parlor Spaghetti.
+\n\n10. Serve hot. "/>
+    </LinearLayout>
+</ScrollView>

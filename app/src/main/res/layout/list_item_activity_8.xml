@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/roasttandoori"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Whole Chicken	1
+\n\nRed Chilli Powder	2 tsp
+\n\nOil	1 Tbsp
+\n\nYogurt	1 cup
+\n\nGinger-Garlic Paste	1 Tbsp
+\n\nLemons	2
+\n\nButter	1 tsp
+\n\nLeaves Powdered	1 tsp fenugreek
+\n\nGarlic Cloves	3-4
+\n\nOnion	1
+\n\nPotatoes Cubed	2
+\n\nSalt	A Pinch
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Mix oil, red chilli powder, yogurt, ginger-garlic paste and lemon juice, mix well. Add fenugreek leaves powdered, salt and butter, mix well and stuff it in chicken.
+\n\n2. Fill the cavity with lemon , garlic cloves and onion. Take a roasting tray and add cubed potatoes, onions, garlic, salt and marinating paste to it.
+\n\n3. Place the chicken and put it in oven at 180˚C for 45 minutes to an hour or until done.
+\n\n4. Once cooked,  brush some of the melted fat on the chicken.
+\n\n5. Garnish with coriander and lemon. "/>
+</LinearLayout>
+</ScrollView>

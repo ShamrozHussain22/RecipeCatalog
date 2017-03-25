@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/beefclubsand"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Whole Beef Piece ½ kg
+\n\nChili Garlic Sauce 5-6 tbsp
+\n\nBread Slices (Big) 14-15
+\n\nTomatoes 2-3
+\n\nLettuce Leaves for decoration
+\n\nCucumber 2-3
+\n\nMayonnaise 1 cup
+\n\nButter as required
+\n\nMustard Paste 1 tsp
+\n\nGarlic Cloves 4-5
+\n\nCrushed Black Pepper 1 tsp
+\n\nOil for frying
+\n\nVinegar 3 tbsp
+\n\nCarrot 2
+\n\nSalt to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Take ½ kg of whole beef slices make marks in it with the help of knife then add 4-5 garlic cloves in it.
+\n\n2. Now add 3 tbsp of vinegar, 1 tsp of crushed black pepper, add to taste salt mix it well and add it to the beef slices and roll it and tie up with thread then cover it with shopping bad and place into the refrigerator for 1-2 hours.
+\n\n3. Now take a cooking pot add 3 cups of water add beef pieces and cook for 3-4 hours (turn the sides also until the masla is mixed).
+\n\n4. When the beef is tender take it out and brush it as required butter and bake it in the oven.
+\n\n5. Now beef is ready. take a mixing bowl add 1 cup of mayonnaise, 5-6 tbsp chili garlic sauce , 1 tbsp of mustard paste, 1 tsp of crushed black pepper, 2 carrots mix it well.
+\n\n6. Now take 14-15 (big) bread slices toasted on a grilled pan spread the sauce and place the bake beef pieces and second slic of bread slice serve it. "/>
+</LinearLayout>
+</ScrollView>

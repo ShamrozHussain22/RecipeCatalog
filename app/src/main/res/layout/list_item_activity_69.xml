@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/sizzlingbeef"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Undercut Beef (sliced) ½ kg
+\n\nChili sauce 2 tbsp
+\n\nHoi son Sauce 1 tbsp
+\n\nWhite pepper ½ tsp
+\n\nSalt half tsp
+\n\nSugar 1 tbsp
+\n\nWater 1 tbsp
+\n\nEgg white 1
+\n\nCorn flour 2 tbsp heaped
+\n\nOil 2 tbsp
+\n\n\nIngredients for steak sauce:
+\n\nOil 2 tbsp
+\n\nGarlic (chopped) 1 tbsp
+\n\nSweet sauce ½ cups
+\n\nHoi son sauce 2 tbsp
+\n\nOyster sauce 1 tbsp
+\n\nSugar 1 tsp
+\n\nSoya sauce 2 tbsp
+\n\nStock 1 cup
+\n\nCorn flour 1 tbsp dissolved in water
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Marinate undercut with chili sauce, hoi son, salt, white pepper, sugar, egg white, corn flour and oil for 1 hour, deep fry undercut for 10 min.
+\n\n2. Remove and keep aside.
+\n\nMethod for sauce:
+\n\n1. Heat oil fry garlic, then golden above all the seasoning with stock.
+\n\n2. Beef lastly thicken the sauce with corn flour paste, heat sizzler, add 1 tbsp oil.
+\n\n3. Then add the beef with sauce serve sizzling hot. "/>
+</LinearLayout>
+</ScrollView>

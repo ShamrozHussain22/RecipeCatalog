@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/pistakulfi"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Pistachios (chopped)  1 cup
+\n\nGreen Food Colo  1 pinch
+\n\nMilk  ½ litre
+\n\nCream  1 packet
+\n\nKhoya  250 gms
+\n\nCardamoms Powder  ¼  tsp
+\n\nSugar  1-1/2 cup
+\n\nAlmonds, Pistachios  as required
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a pan, boil milk.
+\n\n2. When boil comes add sugar, cardamom powder and green food color.
+\n\n3. All ingredients mix and removes from the stove add cream and khoya.
+\n\n4. After this add almonds, pistachios.
+\n\n5. Pour into mould and cover allow to cool for hours till freeze.
+\n\n6. When serve take out from freezer.
+\n\n7. Garnish with almonds, pistachios. "/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/pizzaparatha"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken Breasts (boiled and shredded) 2
+\n\nCheddar Cheese 1 cup
+\n\nMozzarella Cheese 1 cup
+\n\nTomatoes (chopped) 2
+\n\nCoriander leaves 2 – 3tbsp
+\n\nCapsicum (chopped) 1
+\n\nOnion (chopped) 1
+\n\nOlives 6 – 8
+\n\nMushroom (sliced) 3 – 4
+\n\nCrush red pepper 1 tbsp
+\n\nSalt 1 tsp
+\n\nPizza sauce 4 tbsp
+\n\nIngredients for paratha
+\n\nFlour 3 cups
+\n\nWheat flour 1 cup
+\n\nSalt ½ tsp
+\n\nSugar 1 tbsp
+\n\nOil quarter cup
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Heat 2 tbsp oil in a pan add pizza sauce with boiled chicken crush pepper, cook for 5 min and remove.
+\n\nMethod for Paratha:
+\n\nKneed all well together in to a medium dough make into balls stuff with filling and roll as shown, Shallow fry. "/>
+</LinearLayout>
+</ScrollView>

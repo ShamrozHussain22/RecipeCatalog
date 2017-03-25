@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/festivered"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Red cabbage shredded 1
+\n\nDiced onion 1 small
+\n\nDiced red apples 2
+\n\nBeetroot (cooked and diced) 1
+\n\nRoughly chopped walnuts 50 gm
+\n\nChopped oranges 2
+\n\nJuice of 1 orange
+\n\nOrange zest 1 tbsp
+\n\nBalsamic vinegar 1 tbsp
+\n\nHoney 2 tbsp
+\n\nOlive oil 2 tbsp
+\n\nSalt ½ tsp
+\n\nBlack pepper 1 tsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Shred the cabbage and tip into a large bowl with the onions, apples, beetroot, and walnuts. Finely grate over the zest from the oranges. Add chopped oranges. Whisk the balsamic vinegar, honey and olive oil into the orange juice with some seasoning, and then stir into the salad. Serve chilled. "/>
+</LinearLayout>
+</ScrollView>

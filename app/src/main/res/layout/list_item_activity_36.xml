@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/grilledpotato"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Grilled potato and apple salad
+\n\nPotato 250 gm
+\n\nVegetable oil 1 tsp
+\n\nApple 2
+\n\nApple Cider Vinegar 2 tbsp
+\n\nMix Herbs ½ tsp
+\n\nHoney 1 tbsp
+\n\nOlive oil 1 tbsp
+\n\nMix green leaves as required
+\n\nPomegranate 2 tblsp
+\n\nSalt to taste
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="Cut potato in thick slices and boil in salted water and then grill it with hint of oil till u can see nice grill marks. Cut apple in slices. Mix apple cider vinegar, honey and olive oil with herbs and set aside. In serving dish mix apple with mix green leaves and pour dressing on it, set potato on sides and garnish salad with pomegranate. "/>
+</LinearLayout>
+</ScrollView>

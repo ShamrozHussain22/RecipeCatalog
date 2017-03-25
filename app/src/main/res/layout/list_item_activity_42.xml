@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/beijingchik"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Boneless chicken (cubes) ½ kg
+\n\nEgg half
+\n\nSalt to taste
+\n\nCorn flour 1 ½ tbsp
+\n\nOil 1 tbsp
+\n\nOil for deep frying
+\n\nGarlic, grated 1 tbsp
+\n\nGinger, grated 1 tbsp
+\n\nGreen chilies slit 3
+\n\nSoya sauce 4 tbsp
+\n\nTomato ketchup 4 tbsp
+\n\nVinegar 1 tbsp
+\n\nBrown sugar 1 tsp
+\n\nCarrot, diced and blanched 1 medium
+\n\nCabbage, diced half
+\n\nGreen peas, boiled ½ cup
+\n\nSpring onions, chopped 3 – 4
+\n\nRoasted peanuts 2 tbsp
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Mix egg, chicken, salt and corn flour in a bowl and set aside to marinate.
+\n\n2. Heat oil and deep fry the chicken cubes till golden and crisp.
+\n\n3. Drain on absorbent paper.
+\n\n4. Heat one tablespoon oil in another pan, add garlic and ginger and sauté till fragrant.
+\n\n5. Add green chilies, soya sauce, tomato ketchup, vinegar and brown sugar and sauté.
+\n\n6. Add carrot, cabbage, green peas, spring onions and peanuts and toss to mix.
+\n\n7. Add the fried chicken cubes, salt and mix well. Serve hot. "/>
+</LinearLayout>
+</ScrollView>

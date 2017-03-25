@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/hungcurd"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Yogurt	4 1/2 cups
+\n\nPowdered sugar	2 1/2 cups
+\n\nDark chocolate	3/4 cup
+\n\nCream	6 tablespoons
+\n\nAlmonds (toasted and slivered)	15
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Tie yogurt in the muslin cloth and hang for few hours to drain out the whey.
+\n\n2. In summer, it should preferably be hung in the refrigerator.
+\n\n3. Transfer the hung yogurt into a mixing bowl and add powdered sugar.
+\n\n4. Mix well till sugar is totally dissolved.
+\n\n5. Melt chocolate in a double boiler till smooth and cool slightly.
+\n\n6. Add in cream and continue to whisk till well blended.
+\n\n7. Pour this mixture into the yogurt mixture in circles to get a marbled effect.
+\n\n8. Do not mix completely. Chill and serve sprinkled with toasted almond slivers. "/>
+</LinearLayout>
+</ScrollView>

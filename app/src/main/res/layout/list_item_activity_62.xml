@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/beefshami"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Beef Cubes ½ kg
+\n\nGram Lentil 1 cup
+\n\nRed Chilies 8
+\n\nBlack Pepper 6
+\n\nBlack Cardamoms 2
+\n\nCinnamon a piece
+\n\nGarlic 4 cloves
+\n\nGinger 1 small piece
+\n\nCoriander Seeds 1 tsp
+\n\nCumin Seeds 1 tsp
+\n\nSalt to taste
+\n\nYogurt 1 tsp
+\n\nCoriander Leaves (chopped) 1 bunch
+\n\nMint Leaves (finely chopped) 1 bunch
+\n\nGreen Chilies (Julienned) 4
+\n\nOnion (finely chopped) 1
+\n\nGinger (Julienned) 1 piece
+\n\nEgg Whites 2
+\n\nCorn flour/ Rice Flour 2 tbsp
+\n\nOil to fry
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. Wash beef pieces and boil it together with gram lentil with big cardamom, black peppercorn, red chili, salt, coriander seeds, cumin and hot water. Cook it till the meat tenders.
+\n\n2. Chop the boiled meat.
+\n\n3. Add in coriander, mint leaves, Chopped green chilies, onion, ginger, corn flour and white cumin.
+\n\n4. Grease your hand. Make kabab and fry them till golden brown.
+\n\n5. Serve hot.
+ "/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/seekhkabab"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Mince	1 kg
+\n\nEggs	2
+\n\nOnions	250g
+\n\nGreen Chilies	6
+\n\nGreen Coriander	½ bunch
+\n\nPapaya Paste	1 tsp
+\n\nRed Chili Powder	2 tsp
+\n\nSalt	½ tsp
+\n\nAll Spice Powders	1 tsp
+\n\nNutmeg Powder	½ tsp
+\n\nMace Powder	½ tsp
+\n\nGinger Garlic Paste	2 tsp
+\n\nOil	as required
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a chopper put 1 kg mince, 250g onions, 6 green chilies and ½ bunch of green coriander and finely chop it.
+\n\n2. Now add 2 tsp ginger garlic paste, 1 tsp papaya paste, 2 tsp red chili powder, ½ tsp salt, 1 tsp all spice powder, ½ tsp nutmeg powder, ½ tsp mace powder and 2 eggs and put it on skewers after mixing them.
+\n\n3. Now bbq them and fry them in heated oil.
+ "/>
+</LinearLayout>
+</ScrollView>

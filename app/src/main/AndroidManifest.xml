@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sham.recipecatalog">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".ListItemActivity1"
+            android:label="@string/achari_name"
+            android:theme="@style/AppTheme"
+>
+
+
+        </activity>
+
+        <activity android:name=".ListItemActivity2"
+            android:label="Afghani Pulao"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity3"
+            android:label="BBQ Biryani"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity4"
+            android:label="Chicken Broast"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity5"
+            android:label="Fry Chilli Chicken"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity6"
+            android:label="Sindhi Biryani"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity7"
+            android:label="Spicy Chicken Rolls"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity8"
+            android:label="Tandoori Roast Chicken"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity9"
+            android:label="Tandoori Chicken Masala"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity10"
+            android:label="Yakhni Pulao"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity11"
+            android:label="Aloo Pita Paratha"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity12"
+            android:label="Chicken Cheese Paratha"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity13"
+            android:label="Donut Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity14"
+            android:label="Greek Bread"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity15"
+            android:label="Lobia Chana Masala"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity16"
+            android:label="Masala Matar"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity17"
+            android:label="Paratha Qeema"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity18"
+            android:label="Peshawari Vegetable Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity19"
+            android:label="Peanut Butter Chicken Kieve"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity20"
+            android:label="Pizza Paratha"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity21"
+            android:label="Achari Pasta"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity22"
+            android:label="Beef Club Sandwich"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity23"
+            android:label="Beef Nuggets"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity24"
+            android:label="Crispy Fried Chinese Drumsticks"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity25"
+            android:label="California Punch"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity26"
+            android:label="Chicken Crumb Roll"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity27"
+            android:label="Fajita Spaghetti"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity28"
+            android:label="Nuggets with Dip"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity29"
+            android:label="Qeema Spaghetti"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity30"
+            android:label="Squaches"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+
+
+        <activity android:name=".ListItemActivity31"
+            android:label="Aloo Matar Malai"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity32"
+            android:label="Baked Beans Casserole"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity33"
+            android:label="Chicken Pasta with Cheesy White Sauce"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity34"
+            android:label="Colonel Cole Slo Salad"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity35"
+            android:label="Festive Red Salad"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity36"
+            android:label="Grilled Potato and Apple Salad"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity37"
+            android:label="Lemon Achar"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity38"
+            android:label="Mayo Chicken Crockets"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity39"
+            android:label="Mayo Cream Salad"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity40"
+            android:label="Pomegranate Salad"
+            android:theme="@style/AppTheme"
+            >
+
+        </activity>
+
+        <activity android:name=".ListItemActivity41"
+            android:label="Amrat Sari Fried Fish"
+            android:theme="@style/AppTheme"
+            >
+
+        </activity>
+
+        <activity android:name=".ListItemActivity42"
+            android:label="Beijing Chicken"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity43"
+            android:label="Bangladeshi Roast"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity44"
+            android:label="Bombay Biryani"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity45"
+            android:label="Creole Chicken"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity46"
+            android:label="Chinese Pulao"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity47"
+            android:label="Gujrati Daal"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity48"
+            android:label="Japanese Style Chicken Wings"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity49"
+            android:label="Jaipur Biryani"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity50"
+            android:label="Teriyaki Chicken"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity51"
+            android:label="Brownie Pudding"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity52"
+            android:label="Crunchy Coffee Tart"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity53"
+            android:label="Chocolate Cups"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity54"
+            android:label="Fruity Vermicelli Delight"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity55"
+            android:label="Hung Curd Choc Cups"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity56"
+            android:label="Hummingbird Cupcakes"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity57"
+            android:label="Icecream Fruit Custard"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity58"
+            android:label="Pista Kulfi"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity59"
+            android:label="Strawberry Trifle"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity60"
+            android:label="Toffee Mocha Dessert"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity61"
+            android:label="B.B.Q Kofta Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+
+        <activity android:name=".ListItemActivity62"
+            android:label="Beef Shami Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity63"
+            android:label="Chicken Sheesh Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity64"
+            android:label="Gola Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity65"
+            android:label="Galawati Tikkay"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity66"
+            android:label="Koyla Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity67"
+            android:label="Malai Seekh Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity68"
+            android:label="Seekh Kabab"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity69"
+            android:label="Sizzling Beef"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".ListItemActivity70"
+            android:label="Tawa Qeema"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+
+
+    </application>
+
+
+</manifest>

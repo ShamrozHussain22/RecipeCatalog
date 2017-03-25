@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/greekbread"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Plain Flour	2 cup
+\n\nYeast	1 tsp
+\n\nEgg	2 pc
+\n\nIcing Sugar	1 cup
+\n\nAlmonds	½ cup
+\n\nBlack Cumin seeds	½ tsp
+\n\nButter	2-3 tbsp
+\n\nBaking Powder	1 tsp
+\n\nOlive Oil	2 tsp
+\n\nSalt	1 pinch
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a pan, Luke warm water and add yeast. Mix it well.
+\n\n2. When yeast is done then add it in mixing bowl, add icing sugar, edd, plain flour, black cumin seeds, baking powder, olive oil and salt.
+\n\n3. Now knead dough and wrap it in plastic and leave it at hot atmosphere for 2 to 3 hours.
+\n\n4. Now knead it and make balls as required with the help of rolling pan roll it and cut thin sticks.
+\n\n5. Now mix 2 rolls together and make rest of others like it with the help of brush add egg and almonds.
+\n\n6. Grease baking tray with butter or oil and place bread on it. Then brush bread with olive oil.
+\n\n7. Bake it in oven for 15 to 20 minutes. Serve it. "/>
+</LinearLayout>
+</ScrollView>

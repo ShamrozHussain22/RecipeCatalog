@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/chickpastacheese"/>
+
+
+    <TextView
+        android:id="@+id/tving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="5dp"
+        android:text="Chicken Boneless	½ kg
+\n\nMacaroni (boiled )	½ packet
+\n\nBlack Pepper	1 tsp
+\n\nSoy Sauce	1 tbsp
+\n\nChili Sauce	2 tbsp
+\n\nOil	2 tbsp
+\n\nGinger Garlic	1 tsp
+\n\n\nIngredients Of White Sauce:
+\n\nButter	50 gms
+\n\nMilk	½ litre
+\n\nPlain Flour	1 tbsp
+\n\nBlack Pepper	½ tsp
+\n\nSalt	½ tsp
+\n\nCheddar Cheese	1 cup
+\n\nGreen Peas	1 cup
+\n\nCorns	1 cup
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method:"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#f54141"
+        android:textColor="#faf9f9"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1e1e1e"
+        android:padding="10dp"
+        android:text="1. In a pan, heat oil add garlic and fry.
+\n\n2. When fry well, add black pepper, salt, soy sauce, chili sauce, chili sauce, boiled Macaroni and removes from the stove.
+\n\nFor White Sauce:
+\n\n3. In a pan, heat butter add plain flour and fry.
+\n\n4. When aroma comes, add milk, black pepper, salt, green peas, corns and Cheddar Cheese.
+\n\n5. Now take it out in a dish, pour white sauce and serve.
+\n\n6. Chicken Pasta with cheesy White Sauce is ready. "/>
+</LinearLayout>
+</ScrollView>
