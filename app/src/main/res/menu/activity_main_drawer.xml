@@ -40,18 +40,18 @@
 
 
 
-       <item android:title="Development Team">
-           <menu>
-        <item
-            android:id="@+id/nav_develop"
-            android:icon="@drawable/group"
-            android:title="Developers"/>
-        <item
-            android:id="@+id/nav_supervis"
-            android:icon="@drawable/supervise"
-            android:title="Supervisor"/>
-           </menu>
-       </item>
+       <!--<item android:title="Development Team">-->
+           <!--<menu>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_develop"-->
+            <!--android:icon="@drawable/group"-->
+            <!--android:title="Developers"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_supervis"-->
+            <!--android:icon="@drawable/supervise"-->
+            <!--android:title="Supervisor"/>-->
+           <!--</menu>-->
+       <!--</item>-->
     </group>
 
 

@@ -152,24 +152,24 @@ public class MainActivity extends AppCompatActivity
             transaction.addToBackStack("");
             transaction.commit();
         }
-        else if (id == R.id.nav_develop) {
-          fragment9 = new Fragment9();
-            fragmentManager.popBackStack();
-            FragmentTransaction transaction = fragmentManager.beginTransaction();
-            transaction.setCustomAnimations(R.anim.enter, R.anim.exit);
-            transaction.replace(R.id.content_frame, fragment9);
-            transaction.addToBackStack("");
-            transaction.commit();
-        }
-        else if (id == R.id.nav_supervis) {
-           fragment10 = new Fragment10();
-            fragmentManager.popBackStack();
-            FragmentTransaction transaction = fragmentManager.beginTransaction();
-            transaction.setCustomAnimations(R.anim.enter, R.anim.exit);
-            transaction.replace(R.id.content_frame, fragment10);
-            transaction.addToBackStack("");
-            transaction.commit();
-        }
+//        else if (id == R.id.nav_develop) {
+//          fragment9 = new Fragment9();
+//            fragmentManager.popBackStack();
+//            FragmentTransaction transaction = fragmentManager.beginTransaction();
+//            transaction.setCustomAnimations(R.anim.enter, R.anim.exit);
+//            transaction.replace(R.id.content_frame, fragment9);
+//            transaction.addToBackStack("");
+//            transaction.commit();
+//        }
+//        else if (id == R.id.nav_supervis) {
+//           fragment10 = new Fragment10();
+//            fragmentManager.popBackStack();
+//            FragmentTransaction transaction = fragmentManager.beginTransaction();
+//            transaction.setCustomAnimations(R.anim.enter, R.anim.exit);
+//            transaction.replace(R.id.content_frame, fragment10);
+//            transaction.addToBackStack("");
+//            transaction.commit();
+//        }
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
 
